@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/UserN/IdeaProjects/SummerSDET2023">
+        <classes>
+            <class name="com.difital.Main">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test12"/>
+                    <include name="test13"/>
+                    <include name="test14"/>
+                    <include name="test15"/>
+                    <include name="test122"/>
+                    <include name="test133"/>
+                    <include name="test20"/>
+                </methods>
+            </class>
+            <class name="com.difital.utils.MainPracticeForm">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="DEMO.AcctionsDemo">
+                <methods>
+                    <include name="demo123"/>
+                </methods>
+            </class>
+            <class name="DEMO.BasicLocators">
+                <methods>
+                    <include name="byIdTest"/>
+                    <include name="byTagName"/>
+                    <include name="byClassName"/>
+                    <include name="linkedText"/>
+                    <include name="partialLinkedText"/>
+                    <include name="byName"/>
+                </methods>
+            </class>
+            <class name="DEMO.BrowseWindow">
+                <methods>
+                    <include name="windowsTEst"/>
+                </methods>
+            </class>
+            <class name="DEMO.CssDemo">
+                <methods>
+                    <include name="cssDemo1"/>
+                </methods>
+            </class>
+            <class name="DEMO.HWCheckBox">
+                <methods>
+                    <include name="CheckBox12"/>
+                </methods>
+            </class>
+            <class name="DEMO.HWForsecond">
+                <methods>
+                    <include name="DemoTEstHW"/>
+                </methods>
+            </class>
+            <class name="DEMO.HomeWork.HWMenu">
+                <methods>
+                    <include name="DemoHWMenu1"/>
+                </methods>
+            </class>
+            <class name="DEMO.JSDemo">
+                <methods>
+                    <include name="DemoJS12"/>
+                </methods>
+            </class>
+            <class name="DEMO.LocatorsNumbaFood">
+                <methods>
+                    <include name="partialLinkedText"/>
+                </methods>
+            </class>
+            <class name="DEMO.MoveToElement">
+                <methods>
+                    <include name="demo1234"/>
+                </methods>
+            </class>
+            <class name="DEMO.NavigationAndDropDOwn">
+                <methods>
+                    <include name="demo1"/>
+                    <include name="demo2"/>
+                    <include name="selectRandomColor"/>
+                </methods>
+            </class>
+            <class name="DEMO.TextBox">
+                <methods>
+                    <include name="fillUpTheFormTest"/>
+                </methods>
+            </class>
+            <class name="DEMO.TextBoxPracticForm">
+                <methods>
+                    <include name="fillUpTheFormTestPracticForm"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
